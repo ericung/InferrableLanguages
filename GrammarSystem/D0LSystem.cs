@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace GrammarSystem
+﻿namespace GrammarSystem
 {
     public class D0LSystem
     {
@@ -68,15 +66,19 @@ namespace GrammarSystem
         public string GenerateNext(string[] derivations)
         {
             string next = string.Empty;
+
             if (HasAllDerivatives(derivations) == false)
             {
                 return next;
             }
+
             int[] sequence = FindSequeuence(derivations);
+
             foreach (int element in sequence)
             {
                 next += derivations[element];
             }
+
             return next;
         }
     }

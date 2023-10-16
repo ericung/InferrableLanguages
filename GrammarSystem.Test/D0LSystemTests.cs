@@ -1,5 +1,3 @@
-using GrammarSystem;
-
 namespace GrammarSystem.Test
 {
     [TestClass]
@@ -17,11 +15,6 @@ namespace GrammarSystem.Test
                 "abaab",
                 "abaababa"
             };
-
-            // a => ab
-            // b => a
-
-
 
             string next = system.GenerateNext(derivations);
 
