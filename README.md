@@ -4,4 +4,4 @@ The concept of statistics and blackboxes has existed in the field of artificial 
 
 ----
 
-[Inferring Lindenmayer Systems](Resouces\l
+[Inferring Lindenmayer Systems](Resources/lindenmayer_systems.pdf)
