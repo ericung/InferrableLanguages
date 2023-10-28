@@ -1,19 +1,4 @@
 cff-version: 1.0.0
-message: "If you need to cite this paper, please cite it as below."
-authors:
-  - family-names: Ung
-    given-names: Eric
-    orcid: https://orcid.org/0009-0008-6122-4557
-title: "Inferring Lindenmayer Systems"
-version: 1.0.0
-preferred-citation:
-  type: article
-  authors:
-  - family-names: "Ung"
-    given-names: "Eric"
-date-released: 2023-11-01
-
-cff-version: 1.0.0
 message: "If you want to cite this article, please cite it as below."
 authors:
 - family-names: "Eric"
@@ -25,6 +10,7 @@ doi:
 date-released: 2023-11-01
 url: "https://github.com/ericung/InferrenceSystems/blob/master/Resources/lindenmayer_systems.pdf"
 preferred-citation:
+  url: "https://github.com/ericung/InferrenceSystems/blob/master/Resources/lindenmayer_systems.pdf"
   type: article
   authors:
   - family-names: "Ung"
