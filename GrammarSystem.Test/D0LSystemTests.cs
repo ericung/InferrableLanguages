@@ -13,7 +13,8 @@ namespace GrammarSystem.Test
                 "ab",
                 "aba",
                 "abaab",
-                "abaababa"
+                "abaababa",
+                "abaababaabaab"
             };
 
             string next = system.GenerateNext(derivations);

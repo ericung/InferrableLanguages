@@ -6,7 +6,7 @@ The article, [Inferring Lindenmayer Systems](Resources/lindenmayer_systems.pdf),
 
 Let's apply this idea with the monomial decider and picking function from the following article, [Applications for Monomial Deciders](https://github.com/ericung/ApplicationsForMonomialDeciders).
 
-### 1. Applying The Fibonannaci Decider
+### 1. Applying The Fibonnaci Decider
 
 ![1. Applying The Fibonacci Decider](Resources/01ApplyingTheFibonacciDecider.jpg)
 
