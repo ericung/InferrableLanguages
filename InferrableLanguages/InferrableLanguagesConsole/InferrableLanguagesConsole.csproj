@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.csproj" />
+    <ProjectReference Include="..\InferrableLanguages\InferrableLanguages.csproj" />
+  </ItemGroup>
+
 </Project>
