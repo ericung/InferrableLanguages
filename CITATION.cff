@@ -11,10 +11,10 @@ url: "https://github.com/ericung/InferrableLanguages"
 preferred-citation:
   url: "https://github.com/ericung/InferrableLanguages"
   type: article
-  authors
+  authors:
   - family-names: "Ung"
     given-names: "Eric"
     orcid: "https://orcid.org/0009-0008-6122-4557"
   title: "Inferrable Languages"
   date-released: 2024-02-01
-  year: {2024}
+  year: 2024
