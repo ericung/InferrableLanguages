@@ -27,41 +27,49 @@ namespace InferrableLanguages
             return stringBuilder.ToString();
         }
 
-        private static string SubtractFromRight(string left, string right)
+        private static (int, string) SubtractFromRight(string left, string right)
         {
             StringBuilder stringBuilder = new StringBuilder();
             int i = left.Length - 1;
             int j = right.Length - 1;
 
-            while (i >= 0 && j >= 0)
+            if (i < j)
             {
-                if ((left[i] != right[j]))
+                while (i >= 0 && j >= 0)
                 {
-                    break;
+                    if ((left[i] != right[j]))
+                    {
+                        break;
+                    }
+                    i--;
+                    j--;
                 }
-                i--;
-                j--;
-            }
 
-            while (i >= 0)
+                while (i >= 0)
+                {
+                    stringBuilder.Append(left[i--]);
+                }
+
+                while (j >= 0)
+                {
+                    stringBuilder.Append(right[j--]);
+                }
+                
+                StringBuilder reversed = new StringBuilder();
+                String str = stringBuilder.ToString();
+
+                for (int k = str.Length - 1; k >= 0; k--)
+                {
+                    reversed.Append(str[k]);
+                }
+
+                return (1, reversed.ToString());
+            }
+            else
             {
-                stringBuilder.Append(left[i--]);
+                return (-1, SubtractFromLeft(left, right));
             }
 
-            while (j >= 0)
-            {
-                stringBuilder.Append(right[j--]);
-            }
-            
-            StringBuilder reversed = new StringBuilder();
-            String str = stringBuilder.ToString();
-
-            for (int k = str.Length - 1; k >= 0; k--)
-            {
-                reversed.Append(str[k]);
-            }
-
-            return reversed.ToString();
         }
 
         // The LHS equations can be generalized to LHS = a - b + c - d + e, 
@@ -73,9 +81,9 @@ namespace InferrableLanguages
         {
             StringBuilder x1Sb = new StringBuilder();
 
-            x1Sb = new StringBuilder(SubtractFromRight(y1, z2));
+            x1Sb = new StringBuilder(SubtractFromRight(y1, z2).Item2);
             x1Sb.Append(x2);
-            x1Sb = new StringBuilder(SubtractFromRight(x1Sb.ToString(), y2));
+            x1Sb = new StringBuilder(SubtractFromRight(x1Sb.ToString(), y2).Item2);
             x1Sb.Append(z1);
 
             return x1Sb.ToString();
@@ -97,7 +105,13 @@ namespace InferrableLanguages
         {
             StringBuilder z1Sb = new StringBuilder();
 
-            z1Sb = new StringBuilder(SubtractFromRight(x2, y2));
+            (int p, string ret) = SubtractFromRight(x2, y2);
+            z1Sb = new StringBuilder(ret);
+            if (p < 0)
+            {
+                (int p, string ret1) = SubtractFromRight(z1, ret);
+                z1Sb = new StringBuilder(ret1);
+            }
             z1Sb.Append(z1);
             z1Sb = new StringBuilder(SubtractFromRight(z1Sb.ToString(), x1));
             z1Sb.Append(y1);
