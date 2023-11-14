@@ -26,9 +26,9 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ### References
 
-[Inferring Lindenmayer Systems](Resources/lindenmayer_systems.pdf)
+Ung, E. (2018). [Inferring Lindenmayer Systems](Resources/lindenmayer_systems.pdf).
 
-[Applications for Monomial Deciders](https://github.com/ericung/ApplicationsForMonomialDeciders)
+Ung, E. (2023). [Applications For Monomial Deciders](https://github.com/ericung/ApplicationsForMonomialDeciders
+) (Version 1.0.1).
 
-[Language of Polynomials](https://github.com/ericung/languageofpolynomials)
-
+Ung, E. (2023). [A Language Of Polynomials](https://github.com/ericung/languageofpolynomials) (Version 1.0.1). 
