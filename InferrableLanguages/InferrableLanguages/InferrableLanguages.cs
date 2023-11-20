@@ -80,8 +80,8 @@ namespace InferrableLanguages
         // 2. Algorithm
         // 3. Replace function
         // 4. Class
-        // Of the four, investigation into algorhthm and classes.
-        // Stacks would require more more stacking
+        // Of the four, investigation into algorthm and classes.
+        // Stacks would require more more stacking, what of other operations besides + and -?
         // Replace is generalized
 
         public static string LHSx1(string y1, string z2, string x2, string y2, string z1)
