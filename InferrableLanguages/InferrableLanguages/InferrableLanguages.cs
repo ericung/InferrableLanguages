@@ -76,6 +76,13 @@ namespace InferrableLanguages
         // however, writing it in the format will allow us to visualize
         // what is being computed
         // Current problem: the negative string
+        // 1. Stacks
+        // 2. Algorithm
+        // 3. Replace function
+        // 4. Class
+        // Of the four, investigation into algorhthm and classes.
+        // Stacks would require more more stacking
+        // Replace is generalized
 
         public static string LHSx1(string y1, string z2, string x2, string y2, string z1)
         {
