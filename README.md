@@ -42,6 +42,8 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![09LawOfMultiplication](Resources/09LawOfMultiplication.jpg)
 
+### 10. 
+
 -----
 
 # References
