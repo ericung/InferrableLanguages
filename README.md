@@ -26,9 +26,13 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![05DefinitionOfSupport](Resources/05DefinitionOfSupport.jpg)
 
-### 6. Support Of Picking Function
+### 6. Rationals Of Picking Function
 
-![06SupportOfPickingFunction](Resources/06SupportOfPickingFunction.jpg)
+![06RationalsOfPickingFunction](Resources/06RationalsOfPickingFunction.jpg)
+
+### 7. Support Of Picking Function
+
+![07SupportOfPickingFunction](Resources/07SupportOfPickingFunction.jpg)
 
 -----
 
