@@ -34,6 +34,10 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![07SupportOfPickingFunction](Resources/07SupportOfPickingFunction.jpg)
 
+### 8. Condensed Law of Commutativity and Noncommutativity
+
+![08CondensedLawOfCommutativityAndNoncommutativity](Resources/08CondensedLawOfCommutativityAndNoncommutativity.jpg)
+
 -----
 
 # References
