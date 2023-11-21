@@ -22,6 +22,14 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![4. The Law of Commutativity and Noncommutativity](Resources/04TheLawOfCommutativityAndNoncommutativity.jpg)
 
+### 5. Definition Of Support
+
+![05DefinitionOfSupport](Resources/05DefinitionOfSupport.jpg)
+
+### 6. Support Of Picking Function
+
+![06SupportOfPickingFunction](Resources/06SupportOfPickingFunction.jpg)
+
 -----
 
 # References
