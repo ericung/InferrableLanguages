@@ -38,11 +38,14 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![08CondensedLawOfCommutativityAndNoncommutativity](Resources/08CondensedLawOfCommutativityAndNoncommutativity.jpg)
 
-### 9. Law Of Multiplication
+### 9. Law Of Addition
 
-![09LawOfMultiplication](Resources/09LawOfMultiplication.jpg)
+![09LawOfAddition](Resources/09LawOfAddition.jpg)
 
-### 10. 
+### 10. Law Of Multiplication
+
+![10LawOfMultiplication](Resources/10LawOfMultiplication.jpg)
+
 
 -----
 
