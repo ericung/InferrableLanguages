@@ -46,6 +46,9 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![10LawOfMultiplication](Resources/10LawOfMultiplication.jpg)
 
+### 11. The Identity
+
+![11TheIdentity](Resources/11TheIdentity.jpg)
 
 -----
 
