@@ -54,6 +54,10 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![12MultiplitiveIdentity](Resources/12MultiplicativeIdentity.jpg)
 
+### 13. Multiplicative Inverse
+
+![13MultiplicativeInverse](Resources/13MultiplicativeInverse.jpg)
+
 -----
 
 # References
