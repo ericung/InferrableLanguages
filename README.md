@@ -70,6 +70,18 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![16GeneralizedCommutativity](Resources/16GeneralizedCommutativity.jpg)
 
+### 17. Associativity Of Addition
+
+![17AssociativityOfAddition](Resources/17AssociativityOfAddition.jpg)
+
+### 18. Associativity Of Multiplication
+
+![18AssociativityOfMultiplication](Resources/18AssociativityOfMultiplication.jpg)
+
+### 19. Distibutivity
+
+![19Distibutivity](Resources/19Distibutivity.jpg)
+
 -----
 
 # References
