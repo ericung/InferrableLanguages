@@ -38,13 +38,13 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![08LawOfStrings](Resources/08LawOfStrings.jpg)
 
-### 9. Law Of Addition
+### 9. Commutativity Of Addition
 
-![09LawOfAddition](Resources/09LawOfAddition.jpg)
+![09CommutativityOfAddition](Resources/09CommutativityOfAddition.jpg)
 
-### 10. Law Of Multiplication
+### 10. Commutativity Of Multiplication
 
-![10LawOfMultiplication](Resources/10LawOfMultiplication.jpg)
+![10CommutativityOfMultiplication](Resources/10CommutivityOfMultiplication.jpg)
 
 ### 11. Additive Identity
 
@@ -57,6 +57,18 @@ Let's apply this idea with the monomial decider and picking function from the fo
 ### 13. Multiplicative Inverse
 
 ![13MultiplicativeInverse](Resources/13MultiplicativeInverse.jpg)
+
+### 14. Additive Inverse
+
+![14AdditionInverse](Resources/14MultiplicationInverse.jpg)
+
+### 15. Generalized Operations
+
+![15GeneralizedOperations](Resources/GeneralizedOperations.jpg)
+
+### 16. Generalized Communativity
+
+![16GeneralizedCommutativity](Resources/GeneralizedCommutativity.jpg)
 
 -----
 
