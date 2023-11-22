@@ -82,9 +82,17 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![19Distibutivity](Resources/19Distibutivity.jpg)
 
+### 20. Field
+
+![20Field](Resources/20Field.jpg)
+
 -----
 
 # References
+
+Weisstein, Eric W. "Field Axioms." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/FieldAxioms.html
+
+Pinter, C. C. (2010). A book of abstract algebra (2nd ed.). Dover Publications.
 
 Ung, E. (2023). [Applications For Monomial Deciders](https://github.com/ericung/ApplicationsForMonomialDeciders) (Version 1.0.1).
 
