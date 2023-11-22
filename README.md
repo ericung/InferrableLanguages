@@ -54,21 +54,21 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![12MultiplitiveIdentity](Resources/12MultiplicativeIdentity.jpg)
 
-### 13. Multiplicative Inverse
+### 13. Additive Inverse
 
-![13MultiplicativeInverse](Resources/13MultiplicativeInverse.jpg)
+![13AdditiveInverse](Resources/13AdditiveInverse.jpg)
 
-### 14. Additive Inverse
+### 14. Multiplicative Inverse
 
-![14AdditionInverse](Resources/14MultiplicationInverse.jpg)
+![14MultiplicativeInverse](Resources/14MultiplicativeInverse.jpg)
 
 ### 15. Generalized Operations
 
-![15GeneralizedOperations](Resources/GeneralizedOperations.jpg)
+![15GeneralizedOperations](Resources/15GeneralizedOperations.jpg)
 
 ### 16. Generalized Communativity
 
-![16GeneralizedCommutativity](Resources/GeneralizedCommutativity.jpg)
+![16GeneralizedCommutativity](Resources/16GeneralizedCommutativity.jpg)
 
 -----
 
