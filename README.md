@@ -44,7 +44,7 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ### 10. Commutativity Of Multiplication
 
-![10CommutativityOfMultiplication](Resources/10CommutivityOfMultiplication.jpg)
+![10CommutativityOfMultiplication](Resources/10CommutativityOfMultiplication.jpg)
 
 ### 11. Additive Identity
 
