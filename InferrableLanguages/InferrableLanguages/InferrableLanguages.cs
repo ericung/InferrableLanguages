@@ -100,9 +100,12 @@ namespace InferrableLanguages
         {
             StringBuilder y1Sb = new StringBuilder();
 
-            y1Sb = new StringBuilder(SubtractFromRight(z2, x2));
+            var sfrz2x2 = SubtractFromRight(z2, x2);
+
+            y1Sb = new StringBuilder(sfrz2x2.Item2);
             y1Sb.Append(y2);
-            y1Sb = new StringBuilder(SubtractFromRight(y1Sb.ToString(), z1));
+            var sfry1Sbx2 = SubtractFromRight(y1Sb.ToString(), z1);
+            y1Sb = new StringBuilder(sfry1Sbx2.Item2);
             y1Sb.Append(x1);
             
             return y1Sb.ToString();
@@ -116,11 +119,12 @@ namespace InferrableLanguages
             z1Sb = new StringBuilder(ret);
             if (p < 0)
             {
-                (int p, string ret1) = SubtractFromRight(z1, ret);
-                z1Sb = new StringBuilder(ret1);
+                var retv= SubtractFromRight(z1, ret);
+                z1Sb = new StringBuilder(retv.Item2);
             }
             z1Sb.Append(z1);
-            z1Sb = new StringBuilder(SubtractFromRight(z1Sb.ToString(), x1));
+            var sfrz1Sbx1 = SubtractFromRight(z1Sb.ToString(), x1);
+            z1Sb = new StringBuilder(sfrz1Sbx1.Item2);
             z1Sb.Append(y1);
             
             return z1Sb.ToString();

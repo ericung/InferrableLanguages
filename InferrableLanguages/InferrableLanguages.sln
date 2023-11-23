@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferrableLanguages", "InferrableLanguages\InferrableLanguages.csproj", "{11FD133D-3D86-4843-9280-B49578DEC2B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InferrableLanguages", "InferrableLanguages\InferrableLanguages.csproj", "{11FD133D-3D86-4843-9280-B49578DEC2B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferrableLanguagesConsole", "InferrableLanguagesConsole\InferrableLanguagesConsole.csproj", "{E5D29F40-E9B8-4CE2-9889-0DF5751A7A1E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\Common\Common.csproj", "{079729D1-6E87-4D2F-9510-6AB2A9A5579F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InferrableLanguagesConsole", "InferrableLanguagesConsole\InferrableLanguagesConsole.csproj", "{E5D29F40-E9B8-4CE2-9889-0DF5751A7A1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{E5D29F40-E9B8-4CE2-9889-0DF5751A7A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D29F40-E9B8-4CE2-9889-0DF5751A7A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D29F40-E9B8-4CE2-9889-0DF5751A7A1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{079729D1-6E87-4D2F-9510-6AB2A9A5579F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{079729D1-6E87-4D2F-9510-6AB2A9A5579F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{079729D1-6E87-4D2F-9510-6AB2A9A5579F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{079729D1-6E87-4D2F-9510-6AB2A9A5579F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

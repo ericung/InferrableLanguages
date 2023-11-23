@@ -1,7 +1,4 @@
-﻿using Common;
-using InferrableLanguages;
-
-string x1 = "abaababa";
+﻿string x1 = "abaababa";
 string y1 = "abaab";
 string z1 = "aba";
 string x2 = "ab";
