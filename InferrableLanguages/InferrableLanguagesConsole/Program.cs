@@ -5,5 +5,6 @@ string x2 = "ab";
 string y2 = "a";
 string z2 = "b";
 
-// Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation1(y1, z2, x2, y2, z1));
-Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation1(x2, y2, z1, x1, y1));
+Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation1(y1, z2, x2, y2, z1));
+Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation2(x2, y2, z1, x1, y1));
+Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation3(z1, x1, y1, z2, x2));
