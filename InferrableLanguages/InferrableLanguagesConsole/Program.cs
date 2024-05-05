@@ -22,5 +22,3 @@ Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation3(z1, x1, y1, 
 
 // -aba = abaababa - abaab + b - ab + a
 Console.WriteLine(InferrableLanguages.InferrableLanguages.Equation6(x1, y1, z2, x2, y2));
-
-Console.WriteLine("Stop");

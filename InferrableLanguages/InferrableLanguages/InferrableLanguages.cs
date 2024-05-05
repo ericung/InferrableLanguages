@@ -31,6 +31,33 @@ namespace InferrableLanguages
 
             return string.Empty;
         }
+        private static string SubtractFromLeft(string right, string left)
+        {
+            if (right.Length < left.Length)
+            {
+                if (left.Substring(0, right.Length) == right)
+                {
+                    return left.Substring(right.Length, left.Length - right.Length);
+                }
+                else if (left.Substring(left.Length - right.Length, right.Length) == right)
+                {
+                    return left.Substring(0, left.Length - right.Length);
+                }
+            }
+            else if (left.Length < right.Length)
+            {
+                if (right.Substring(right.Length - left.Length, left.Length) == left)
+                {
+                    return right.Substring(0, right.Length - left.Length);
+                }
+                else if (right.Substring(0, left.Length) == left)
+                {
+                    return right.Substring(left.Length, right.Length - left.Length);
+                }
+            }
+
+            return string.Empty;
+        }
 
         private static string AddLeft(string left, string right)
         {
@@ -110,7 +137,7 @@ namespace InferrableLanguages
         // -ab = ab
         public static string Equation5(string y2, string z1, string x1, string y1, string z2)
         {
-            var cur = SubtractFromRight(z1, y2);
+            var cur = SubtractFromLeft(y2, z1); // Subtract from left
             var cur2 = SubtractFromRight(cur, x1);
             var cur3 = SubtractFromRight(cur2, y1);
             var cur4 = AddLeft(cur3, z2);
