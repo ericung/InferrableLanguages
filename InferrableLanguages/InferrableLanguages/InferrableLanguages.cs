@@ -12,6 +12,10 @@ namespace InferrableLanguages
                 {
                     return right.Substring(0, right.Length - left.Length);
                 }
+                else if (right.Substring(0, left.Length) == left)
+                {
+                    return right.Substring(left.Length, right.Length - left.Length);
+                }
             }
             else if (right.Length < left.Length)
             {
@@ -32,6 +36,14 @@ namespace InferrableLanguages
         {
             StringBuilder stringBuilder = new StringBuilder(left);
             stringBuilder.Append(right);
+
+            return stringBuilder.ToString();
+        }
+
+        private static string AddRight(string left, string right)
+        {
+            StringBuilder stringBuilder = new StringBuilder(right);
+            stringBuilder.Append(left);
 
             return stringBuilder.ToString();
         }
@@ -76,5 +88,51 @@ namespace InferrableLanguages
 
             return cur4;
         }
+
+        // -abaab = b - ab + a - aba + abaababa
+        // -abaab = - a + a - aba + abaababa
+        // -abaab = - aba + abaababa
+        // -abaab = abaab
+        public static string Equation4(string z2, string x2, string y2, string z1, string x1)
+        {
+            var cur = SubtractFromRight(z2, x2);
+            var cur2 = SubtractFromRight(cur, y2);
+            var cur3 = SubtractFromRight(cur2, z1);
+            var cur4 = SubtractFromRight(cur3, x1);
+
+            return cur4;
+        }
+
+        // -ab = a - aba + abaababa - abaab + b
+        // -ab = - ba + abaababa - abaab + b
+        // -ab = abaaba - abaab + b
+        // -ab = a + b
+        // -ab = ab
+        public static string Equation5(string y2, string z1, string x1, string y1, string z2)
+        {
+            var cur = SubtractFromRight(z1, y2);
+            var cur2 = SubtractFromRight(cur, x1);
+            var cur3 = SubtractFromRight(cur2, y1);
+            var cur4 = AddLeft(cur3, z2);
+
+            return cur4;
+        }
+
+        // -aba = abaababa - abaab + b - ab + a
+        // -aba = aba + b - ab + a
+        // -aba = aba + b - ab + a
+        // -aba = abab - ab + a
+        // -aba = ab + a
+        // -aba = aba
+        public static string Equation6(string x1, string y1, string z2, string x2, string y2)
+        {
+            var cur = SubtractFromRight(x1, y1);
+            var cur2 = SubtractFromRight(cur, z2);
+            var cur3 = SubtractFromRight(cur2, x2);
+            var cur4 = AddLeft(cur3, y2);
+
+            return cur4;
+        }
+
     }
 }
