@@ -31,6 +31,7 @@ namespace InferrableLanguages
 
             return string.Empty;
         }
+
         private static string SubtractFromLeft(string right, string left)
         {
             if (right.Length < left.Length)
@@ -96,6 +97,7 @@ namespace InferrableLanguages
 
             return cur4;
         }
+
         public static string Equation2(string y1, string z2, string x2, string y2, string z1)
         {
             var cur = SubtractFromRight(y2, z1);

@@ -86,6 +86,10 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![20Field](Resources/20Field.jpg)
 
+### 21. Homology
+
+![21Homology](Resources/21Homology.jpg)
+
 -----
 
 # References
