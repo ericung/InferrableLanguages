@@ -3,7 +3,13 @@
 namespace InferrableLanguages
 {
     public static class InferrableLanguages
-    { 
+    {
+        // Bilinearity
+        // 1. [v1+v2,w]  = [v1,w]+[v2,w] and [cv,w]     = c[v,w]
+        // 2. [v, w1+w2] = [v, w1] + [v, w2] and[v, cw] = c[v, w]
+        // SubtractFromRight
+        // SubtractFromLeft
+
         private static string SubtractFromRight(string left, string right)
         {
             if (left.Length < right.Length)
@@ -121,7 +127,7 @@ namespace InferrableLanguages
         // -abaab = b - ab + a - aba + abaababa
         // -abaab = - a + a - aba + abaababa
         // -abaab = - aba + abaababa
-        // -abaab = abaab
+        // -abaab = abaab <= the result is skew symmetry
         public static string Equation4(string z2, string x2, string y2, string z1, string x1)
         {
             var cur = SubtractFromRight(z2, x2);
@@ -147,6 +153,8 @@ namespace InferrableLanguages
             return cur4;
         }
 
+        // you can barely make out jacobi's property
+        // it's seen somehow because the determinant of the equation is 0.
         // -aba = abaababa - abaab + b - ab + a
         // -aba = aba + b - ab + a
         // -aba = aba + b - ab + a
@@ -162,6 +170,5 @@ namespace InferrableLanguages
 
             return cur4;
         }
-
     }
 }
