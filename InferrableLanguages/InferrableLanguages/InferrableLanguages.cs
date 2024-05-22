@@ -96,8 +96,8 @@ namespace InferrableLanguages
 
         public static string Equation1(string y1, string z2, string x2, string y2, string z1)
         {
-            var cur = SubtractFromRight(y2, z1);
-            var cur2 = AddLeft(x2, cur);
+            var cur = SubtractFromRight(y2, z1);  // this looks nice and looks like functional code
+            var cur2 = AddLeft(x2, cur);  
             var cur3 = SubtractFromRight(z2, cur2);
             var cur4 = AddLeft(y1, cur3);
 
