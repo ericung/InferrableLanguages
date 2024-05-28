@@ -10,6 +10,13 @@ namespace InferrableLanguages
         // SubtractFromRight
         // SubtractFromLeft
 
+        // bilinearity: [v1+v2, w] = [v1, w]+[v2, w] and[cv, w] = c[v, w]
+        // [v, w1 + w2] = [v, w1] + [v, w2] and[v, cw] = c[v, w]
+        // skew symmetry: [v, w] = -[w, v] or[v, v] = 0
+        // jacobi: [u,[v, w]] + [v,[w, u]] + [w,[u, v]] = 0
+
+
+
         private static string SubtractFromRight(string left, string right)
         {
             if (left.Length < right.Length)
@@ -96,6 +103,7 @@ namespace InferrableLanguages
 
         public static string Equation1(string y1, string z2, string x2, string y2, string z1)
         {
+            // these operations display jacobi's identity
             var cur = SubtractFromRight(y2, z1);  // this looks nice and looks like functional code
             var cur2 = AddLeft(x2, cur);  
             var cur3 = SubtractFromRight(z2, cur2);
@@ -156,7 +164,6 @@ namespace InferrableLanguages
         // you can barely make out jacobi's property
         // it's seen somehow because the determinant of the equation is 0.
         // -aba = abaababa - abaab + b - ab + a
-        // -aba = aba + b - ab + a
         // -aba = aba + b - ab + a
         // -aba = abab - ab + a
         // -aba = ab + a
