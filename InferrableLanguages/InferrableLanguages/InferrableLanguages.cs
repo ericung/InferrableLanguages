@@ -100,6 +100,22 @@ namespace InferrableLanguages
         // Of the four, investigation into algorthm and classes.
         // Stacks would require more more stacking, what of other operations besides + and -?
         // Replace is generalized
+        
+        // explanation of jacobi's for the left hand side of the 3x3 matrix.
+        // x+y-z = 0
+        // u = x
+        // v = y
+        // w = -z
+        // [u,[v,w]]
+        // aba + ab - a = aba + b = abab
+        // u v w => -v -u w {swap u and v} => - v -w -u {swap u and w} => -[v,-[w,u]]
+        // - [ab - [a - aba]] = -[ab - [-ab]] = -[abab] = -abab
+        // u v w => u -w -v {swap v and w} => w -u -v {swap w and u} => [w,-[u,v]]
+        // [a - [aba - ab]] = a - [a] = 0
+        // jacobi's
+        // [u,[v,w]] - [v,-[w,u]] + [w,-[u,v]] = 0
+        // abab -abab + 0 = 0
+
 
         public static string Equation1(string y1, string z2, string x2, string y2, string z1)
         {
