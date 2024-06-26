@@ -86,7 +86,7 @@ Let's apply this idea with the monomial decider and picking function from the fo
 
 ![20Field](Resources/20Field.jpg)
 
-This resulting field puts us where Avi Widgerson's research is. "A deterministic polynomial time algorithm for non-commutative rational identity testing".
+This resulting field puts us where GGOW research is. "A deterministic polynomial time algorithm for non-commutative rational identity testing".
 
 ### 21. Homology
 
